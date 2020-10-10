@@ -13,7 +13,7 @@ html,body{
 	align-items: center;
 	color: #fff;
 	font-family: sans-serif;
-	background: linear-gradient(to bottom left, rgba(30,30,30,.5), rgba(30,30,30,1)), url('../images/Rio-de-Janeiro.jpg');
+	background: linear-gradient(to bottom left, rgba(22,28,50,.5), rgba(22,28,50,1)), url('../images/Rio-de-Janeiro.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -27,7 +27,7 @@ h1{
 .bandeira {
 	width: 700px;
 	height:  400px;
-	background: #009b3a;
+	background: #03c63a;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,14 +35,14 @@ h1{
 .paralelogramo {
 	width: 80%;
 	height:  75%;
-	background: #fedf00;
+	background: #f3f307;
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .circulo {
-	background: #002775;
+	background: #0420a5;
 	width: 40%;
 	height: 60%;
 	border-radius: 200%;
