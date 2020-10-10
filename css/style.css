@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,body{
+	width: 100%;
+	height: 100vh;
+	font-size: 17px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom left, rgba(30,30,30,.5), rgba(30,30,30,1)), url('../images/Rio-de-Janeiro.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	margin-top: 1em;
+	font-size: 150%;
+	color: #eee;
+}
+.bandeira {
+	width: 700px;
+	height:  400px;
+	background: #009b3a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.paralelogramo {
+	width: 80%;
+	height:  75%;
+	background: #fedf00;
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circulo {
+	background: #002775;
+	width: 40%;
+	height: 60%;
+	border-radius: 200%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	position: relative;
+}
+
+.linha-branca {
+	background: #fff;
+	width: 100%;
+	height: 10%;
+	color: green;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 80%;
+	word-spacing: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+	transform: rotate(10deg);
+	/*clip-path: polygon(83% 73%, 67% 83%, 50% 87%, 35% 83%, 23% 75%, 
+		               0% 52%, 0% 66%, 23% 88%, 40% 95%, 54% 96%,
+		               77% 89%, 89% 80%, 100% 62%, 100% 46%);*/
+}
+
+.estrelas0,.estrelas1, .estrelas2, .estrelas3,.estrelas4, .estrelas5,
+.estrelas6,.estrelas7, .estrelas8, .estrelas9,.estrelas10, .estrelas11,
+.estrelas12,.estrelas13, .estrelas14, .estrelas15,.estrelas16, .estrelas17,
+.estrelas18,.estrelas19, .estrelas20, .estrelas21,.estrelas22, .estrelas23,
+.estrelas24,.estrelas25, .estrelas26{
+	background: #fff;
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.estrelas0{
+	bottom: 1em;
+}
+.estrelas1, .estrelas14, .estrelas10, .estrelas8, .estrelas13, .estrelas18, .estrelas20, .estrelas25{
+	width: 3%;
+	height: 3%;
+}
+.estrelas1{
+	bottom: 2em;
+	right: 3.7em;
+}
+.estrelas2{
+	left: 2em;
+	width: 2%;
+	height: 2%;
+}
+.estrelas4{
+	bottom: 4em;
+	left: 9em;
+}
+.estrelas5{
+	bottom: 4em;
+	left: 9em;
+}
+.estrelas5{
+	bottom: 2.5em;
+	right: .2em;
+}
+.estrelas6{
+	bottom: 4em;
+	left: 3.8em;
+	width: 4%;
+	height: 4%;
+}
+.estrelas7{
+	bottom:6em;
+	right: 4em;
+	width: 4%;
+}
+.estrelas8{
+    bottom: 1.7em;
+    left: 2em;
+}
+.estrelas9{
+	bottom: 3em;
+	left: 1em;
+}
+.estrelas10{
+	bottom: 3.1em;
+	right: 5em;
+}
+.estrelas11{
+	left: 3em;
+	bottom: 3.5em;
+}
+.estrelas12{
+	right: 3em;
+	bottom: 1em;
+}
+.estrelas13{
+	bottom: 4.5em;
+	left: .9em;
+}
+
+.estrelas14{
+	width: 3.5%;
+	height: 3.5%
+	bottom: 2em;
+	right: 3em;
+}
+.estrelas15{
+	width: 1%;
+	height: 1%;
+	bottom: 2em;
+	left: 4em;
+}
+.estrelas15{
+	width: 1%;
+	height: 1%;
+	bottom: 8em;
+	right: 2.8em;
+}
+.estrelas16{
+	width: 2%;
+	height: 2%;
+	right: 1em;
+	bottom: 3em;
+}
+.estrela17{
+	bottom: 4.6em;
+	left: 2.6em;
+}
+.estrelas18{
+	bottom: 7.5em;
+	right: .6em;
+}
+
+.estrelas19{
+	width: 3%;
+	height: 3%
+	bottom: 3em;
+	right: 4em;
+}
+.estrelas20{
+	bottom: 4em;
+	left: 2em;
+}
+.estrelas21{
+	width: 1%;
+	height: 1%;
+	bottom: 2.8em;
+	left: 8em;
+}
+.estrelas22{
+	width: 2%;
+	height: 2%;
+	left: 5em;
+	bottom: 1em;
+}
+.estrela23{
+	bottom: 5.6em;
+	left: 4.6em;
+}
+.estrelas24{
+	width: 2%;
+	height: 2%;
+	bottom: 2.4em;
+	left: 3em;
+}
+.estrelas25{
+	width: 3%;
+	height: 3%;
+	right: 7em;
+	bottom: 2em;
+}
+.estrela26{
+	bottom: 3.6em;
+	left: : 4.6em;
+}
+
+.copyright{
+	display: flex;
+	margin-top: 1em;
+	align-items: center;
+	color: #11ff5a;
+}
+span{
+	margin-right: 1em;
+}
+i{
+	margin-right: 1em;
+	font-size: 150%;
+}
