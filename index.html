@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Brasil</title>
-	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Brasil</title>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	<div class="bandeira">
-		<div class="paralelogramo">
-			<div class="circulo">
-				<div class="linha-branca">Ordem e progresso</div>
-			</div>
-		</div>
-	</div>
-	<h1>Bandeira do Brasil feita com HTML, CSS puro e JSpuro</h1>
-	<div class="copyright">
-		<span>MCM Geomagic</span>
-		<i class="ion-social-github"></i>
-		<i class="ion-social-facebook"></i>
-		<i class="ion-social-instagram-outline"></i>
+    <div class="bandeira">
+        <div class="paralelogramo">
+            <div class="circulo">
+                <div class="linha-branca">Ordem e progresso</div>
+            </div>
+        </div>
+    </div>
+    <h1>Bandeira do Brasil feita com HTML, CSS puro e JSpuro</h1>
+    <div class="copyright">
+        <span>MCM Geomagic</span>
+        <i class="ion-social-github"></i>
+        <i class="ion-social-facebook"></i>
+        <i class="ion-social-instagram-outline"></i>
     </div>
 </body>
-    <script type="text/javascript">
-    	var circulo = document.querySelector(".circulo")
-    	var numeroEstrelas = 27
-    	var position 
-    	for(var i = 0; i < numeroEstrelas; i++) {
-    		position 
-    		var div = document.createElement('div')
-    		div.className = 'estrelas'+i
-    		circulo.append(div)
-    	}
-    </script>
+<script type="text/javascript">
+    var circulo = document.querySelector(".circulo")
+    var numeroEstrelas = 27
+    var position
+    for (var i = 0; i < numeroEstrelas; i++) {
+        position
+        var div = document.createElement('div')
+        div.className = 'estrela estrelas' + i
+        circulo.append(div)
+    }
+</script>
+
 </html>
